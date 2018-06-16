@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F620486220D537FE00AD8E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F620486120D537FD00AD8E3D /* AppDelegate.swift */; };
-		F620486420D537FE00AD8E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F620486320D537FE00AD8E3D /* ViewController.swift */; };
-		F620486720D537FE00AD8E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F620486520D537FE00AD8E3D /* Main.storyboard */; };
 		F620486920D537FE00AD8E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F620486820D537FE00AD8E3D /* Assets.xcassets */; };
 		F620486C20D537FE00AD8E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F620486A20D537FE00AD8E3D /* LaunchScreen.storyboard */; };
+		F67FF3F120D53C1900518CE2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FF3F020D53C1900518CE2 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F620485E20D537FD00AD8E3D /* Bucketer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bucketer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F620486120D537FD00AD8E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F620486320D537FE00AD8E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F620486620D537FE00AD8E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F620486820D537FE00AD8E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F620486B20D537FE00AD8E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F620486D20D537FE00AD8E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67FF3F020D53C1900518CE2 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				F620486120D537FD00AD8E3D /* AppDelegate.swift */,
-				F620486320D537FE00AD8E3D /* ViewController.swift */,
-				F620486520D537FE00AD8E3D /* Main.storyboard */,
+				F67FF3F020D53C1900518CE2 /* WebViewController.swift */,
 				F620486820D537FE00AD8E3D /* Assets.xcassets */,
 				F620486A20D537FE00AD8E3D /* LaunchScreen.storyboard */,
 				F620486D20D537FE00AD8E3D /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				F620486C20D537FE00AD8E3D /* LaunchScreen.storyboard in Resources */,
 				F620486920D537FE00AD8E3D /* Assets.xcassets in Resources */,
-				F620486720D537FE00AD8E3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F620486420D537FE00AD8E3D /* ViewController.swift in Sources */,
+				F67FF3F120D53C1900518CE2 /* WebViewController.swift in Sources */,
 				F620486220D537FE00AD8E3D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F620486520D537FE00AD8E3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F620486620D537FE00AD8E3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F620486A20D537FE00AD8E3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +269,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hursh.Bucketer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hursh.Bucketer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
