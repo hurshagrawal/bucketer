@@ -1,0 +1,77 @@
+body {
+  overflow-x: hidden;
+}
+
+.pull-request-meta {
+  flex-direction: column;
+}
+
+.compare-widget-container {
+  padding: 0 !important;
+  margin-bottom: 10px;
+}
+
+#pullrequest {
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+#repo-content .view-pullrequest #pull-request-header .pull-request-status {
+  border-right: none;
+}
+
+#repo-content .view-pullrequest #pull-request-header #pullrequest-actions {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#repo-content .view-pullrequest #pull-request-header #pullrequest-actions .approve {
+  float: initial;
+  margin: 0 0 8px 0;
+}
+
+.aui-page-panel-content, .aui-page-panel-item, .aui-page-panel-nav, .aui-page-panel-sidebar {
+  padding: 5px;
+}
+
+.commit-files-summary {
+  margin-bottom: 5px;
+}
+
+.bb-udiff .heading {
+  flex-direction: column;
+}
+
+.aui-buttons {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.diff-actions {
+  margin: 0;
+}
+
+.refract-container {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.refract-container .line-numbers {
+  display: none;
+}
+
+.commentable-diff .refract-container .source {
+  padding-left: 32px;
+}
+
+.refract-content-container .line-numbers, .refract-content-container .source {
+  letter-spacing: -0.5px;
+}
+
+.new-comment .user {
+  display: none;
+}
+
+.comments-list .new-comment ak-editor-bitbucket {
+  margin-left: 0;
+}
